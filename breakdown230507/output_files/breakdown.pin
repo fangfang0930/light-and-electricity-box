@@ -1,0 +1,326 @@
+ -- Copyright (C) 1991-2013 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 1:		2.5V
+ --					Bank 2:		2.5V
+ --					Bank 3:		2.5V
+ --					Bank 4:		2.5V
+ --					Bank 5:		2.5V
+ --					Bank 6:		2.5V
+ --					Bank 7:		2.5V
+ --					Bank 8:		2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin. Connect each pin marked GND* directly to GND
+ --           	    or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+CHIP  "breakdown"  ASSIGNED TO AN: EP4CE10F17I7
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCIO8                       : A1        : power  :                   : 2.5V    : 8         :                
+in_c[1]                      : A2        : input  : 2.5 V             :         : 8         : Y              
+CTL_PULSE[5]                 : A3        : input  : 2.5 V             :         : 8         : Y              
+FPGA_DB[0]                   : A4        : bidir  : 2.5 V             :         : 8         : Y              
+FPGA_A[17]                   : A5        : input  : 2.5 V             :         : 8         : Y              
+FPGA_DB[3]                   : A6        : bidir  : 2.5 V             :         : 8         : Y              
+DRAM_RD                      : A7        : input  : 2.5 V             :         : 8         : Y              
+RESERVED_INPUT               : A8        :        :                   :         : 8         :                
+FPGA_A[24]                   : A9        : input  : 2.5 V             :         : 7         : Y              
+RESERVED_INPUT               : A10       :        :                   :         : 7         :                
+FPGA_A[19]                   : A11       : input  : 2.5 V             :         : 7         : Y              
+FPGA_A[21]                   : A12       : input  : 2.5 V             :         : 7         : Y              
+in_a[23]                     : A13       : input  : 2.5 V             :         : 7         : Y              
+in_a[21]                     : A14       : input  : 2.5 V             :         : 7         : Y              
+in_a[19]                     : A15       : input  : 2.5 V             :         : 7         : Y              
+VCCIO7                       : A16       : power  :                   : 2.5V    : 7         :                
+in_c[11]                     : B1        : input  : 2.5 V             :         : 1         : Y              
+GND                          : B2        : gnd    :                   :         :           :                
+in_c[0]                      : B3        : input  : 2.5 V             :         : 8         : Y              
+FPGA_DB[1]                   : B4        : bidir  : 2.5 V             :         : 8         : Y              
+FPGA_A[18]                   : B5        : input  : 2.5 V             :         : 8         : Y              
+FPGA_DB[2]                   : B6        : bidir  : 2.5 V             :         : 8         : Y              
+RESERVED_INPUT               : B7        :        :                   :         : 8         :                
+DRAM_WR                      : B8        : input  : 2.5 V             :         : 8         : Y              
+RESERVED_INPUT               : B9        :        :                   :         : 7         :                
+FPGA_A[23]                   : B10       : input  : 2.5 V             :         : 7         : Y              
+FPGA_A[20]                   : B11       : input  : 2.5 V             :         : 7         : Y              
+FPGA_A[22]                   : B12       : input  : 2.5 V             :         : 7         : Y              
+in_a[22]                     : B13       : input  : 2.5 V             :         : 7         : Y              
+in_a[20]                     : B14       : input  : 2.5 V             :         : 7         : Y              
+GND                          : B15       : gnd    :                   :         :           :                
+in_a[18]                     : B16       : input  : 2.5 V             :         : 6         : Y              
+RESERVED_INPUT               : C1        :        :                   :         : 1         :                
+FPGA_KEY                     : C2        : input  : 2.5 V             :         : 1         : Y              
+in_c[6]                      : C3        : input  : 2.5 V             :         : 8         : Y              
+VCCIO8                       : C4        : power  :                   : 2.5V    : 8         :                
+GND                          : C5        : gnd    :                   :         :           :                
+FPGA_A[16]                   : C6        : input  : 2.5 V             :         : 8         : Y              
+VCCIO8                       : C7        : power  :                   : 2.5V    : 8         :                
+DRAM_CS0                     : C8        : input  : 2.5 V             :         : 8         : Y              
+FPGA_DB[8]                   : C9        : bidir  : 2.5 V             :         : 7         : Y              
+VCCIO7                       : C10       : power  :                   : 2.5V    : 7         :                
+FPGA_DB[5]                   : C11       : bidir  : 2.5 V             :         : 7         : Y              
+GND                          : C12       : gnd    :                   :         :           :                
+VCCIO7                       : C13       : power  :                   : 2.5V    : 7         :                
+in_a[9]                      : C14       : input  : 2.5 V             :         : 7         : Y              
+RESERVED_INPUT               : C15       :        :                   :         : 6         :                
+in_a[16]                     : C16       : input  : 2.5 V             :         : 6         : Y              
+in_c[12]                     : D1        : input  : 2.5 V             :         : 1         : Y              
+RESERVED_INPUT               : D2        :        :                   :         : 1         :                
+in_c[7]                      : D3        : input  : 2.5 V             :         : 8         : Y              
+in_c[5]                      : D4        : input  : 2.5 V             :         : 1         : Y              
+in_c[4]                      : D5        : input  : 2.5 V             :         : 8         : Y              
+in_c[3]                      : D6        : input  : 2.5 V             :         : 8         : Y              
+GND                          : D7        : gnd    :                   :         :           :                
+FPGA_DB[13]                  : D8        : bidir  : 2.5 V             :         : 8         : Y              
+FPGA_DB[7]                   : D9        : bidir  : 2.5 V             :         : 7         : Y              
+GND                          : D10       : gnd    :                   :         :           :                
+FPGA_DB[4]                   : D11       : bidir  : 2.5 V             :         : 7         : Y              
+in_a[8]                      : D12       : input  : 2.5 V             :         : 7         : Y              
+VCCD_PLL2                    : D13       : power  :                   : 1.2V    :           :                
+in_a[7]                      : D14       : input  : 2.5 V             :         : 7         : Y              
+in_a[17]                     : D15       : input  : 2.5 V             :         : 6         : Y              
+in_a[14]                     : D16       : input  : 2.5 V             :         : 6         : Y              
+FPGA_CLK_25M                 : E1        : input  : 2.5 V             :         : 1         : Y              
+GND                          : E2        : gnd    :                   :         :           :                
+VCCIO1                       : E3        : power  :                   : 2.5V    : 1         :                
+GND                          : E4        : gnd    :                   :         :           :                
+in_c[9]                      : E5        : input  : 2.5 V             :         : 1         : Y              
+in_c[8]                      : E6        : input  : 2.5 V             :         : 8         : Y              
+FPGA_DB[15]                  : E7        : bidir  : 2.5 V             :         : 8         : Y              
+FPGA_DB[12]                  : E8        : bidir  : 2.5 V             :         : 8         : Y              
+FPGA_DB[9]                   : E9        : bidir  : 2.5 V             :         : 7         : Y              
+FPGA_DB[6]                   : E10       : bidir  : 2.5 V             :         : 7         : Y              
+FPGA_LED_BU                  : E11       : output : 2.5 V             :         : 7         : Y              
+GNDA2                        : E12       : gnd    :                   :         :           :                
+GND                          : E13       : gnd    :                   :         :           :                
+VCCIO6                       : E14       : power  :                   : 2.5V    : 6         :                
+GND+                         : E15       :        :                   :         : 6         :                
+in_a[15]                     : E16       : input  : 2.5 V             :         : 6         : Y              
+in_c[14]                     : F1        : input  : 2.5 V             :         : 1         : Y              
+in_c[13]                     : F2        : input  : 2.5 V             :         : 1         : Y              
+in_c[10]                     : F3        : input  : 2.5 V             :         : 1         : Y              
+nSTATUS                      : F4        :        :                   :         : 1         :                
+CTL_PULSE[3]                 : F5        : input  : 2.5 V             :         : 1         : Y              
+in_a[13]                     : F6        : input  : 2.5 V             :         : 8         : Y              
+FPGA_DB[14]                  : F7        : bidir  : 2.5 V             :         : 8         : Y              
+FPGA_DB[11]                  : F8        : bidir  : 2.5 V             :         : 8         : Y              
+FPGA_DB[10]                  : F9        : bidir  : 2.5 V             :         : 7         : Y              
+in_a[4]                      : F10       : input  : 2.5 V             :         : 7         : Y              
+in_a[6]                      : F11       : input  : 2.5 V             :         : 7         : Y              
+VCCA2                        : F12       : power  :                   : 2.5V    :           :                
+FPGA_LED_GN                  : F13       : output : 2.5 V             :         : 6         : Y              
+FPGA_LED_RD                  : F14       : output : 2.5 V             :         : 6         : Y              
+in_a[12]                     : F15       : input  : 2.5 V             :         : 6         : Y              
+in_a[10]                     : F16       : input  : 2.5 V             :         : 6         : Y              
+in_c[16]                     : G1        : input  : 2.5 V             :         : 1         : Y              
+in_c[15]                     : G2        : input  : 2.5 V             :         : 1         : Y              
+VCCIO1                       : G3        : power  :                   : 2.5V    : 1         :                
+GND                          : G4        : gnd    :                   :         :           :                
+in_c[2]                      : G5        : input  : 2.5 V             :         : 1         : Y              
+VCCINT                       : G6        : power  :                   : 1.2V    :           :                
+VCCINT                       : G7        : power  :                   : 1.2V    :           :                
+VCCINT                       : G8        : power  :                   : 1.2V    :           :                
+VCCINT                       : G9        : power  :                   : 1.2V    :           :                
+VCCINT                       : G10       : power  :                   : 1.2V    :           :                
+in_a[5]                      : G11       : input  : 2.5 V             :         : 6         : Y              
+MSEL2                        : G12       :        :                   :         : 6         :                
+GND                          : G13       : gnd    :                   :         :           :                
+VCCIO6                       : G14       : power  :                   : 2.5V    : 6         :                
+in_a[11]                     : G15       : input  : 2.5 V             :         : 6         : Y              
+RESERVED_INPUT               : G16       :        :                   :         : 6         :                
+RESERVED_INPUT               : H1        :        :                   :         : 1         :                
+RESERVED_INPUT               : H2        :        :                   :         : 1         :                
+altera_reserved_tck          : H3        : input  : 2.5 V             :         : 1         : N              
+altera_reserved_tdi          : H4        : input  : 2.5 V             :         : 1         : N              
+nCONFIG                      : H5        :        :                   :         : 1         :                
+VCCINT                       : H6        : power  :                   : 1.2V    :           :                
+GND                          : H7        : gnd    :                   :         :           :                
+GND                          : H8        : gnd    :                   :         :           :                
+GND                          : H9        : gnd    :                   :         :           :                
+GND                          : H10       : gnd    :                   :         :           :                
+VCCINT                       : H11       : power  :                   : 1.2V    :           :                
+MSEL1                        : H12       :        :                   :         : 6         :                
+MSEL0                        : H13       :        :                   :         : 6         :                
+CONF_DONE                    : H14       :        :                   :         : 6         :                
+GND                          : H15       : gnd    :                   :         :           :                
+GND                          : H16       : gnd    :                   :         :           :                
+in_c[17]                     : J1        : input  : 2.5 V             :         : 2         : Y              
+in_c[18]                     : J2        : input  : 2.5 V             :         : 2         : Y              
+nCE                          : J3        :        :                   :         : 1         :                
+altera_reserved_tdo          : J4        : output : 2.5 V             :         : 1         : N              
+altera_reserved_tms          : J5        : input  : 2.5 V             :         : 1         : N              
+CTL_PULSE[1]                 : J6        : input  : 2.5 V             :         : 2         : Y              
+GND                          : J7        : gnd    :                   :         :           :                
+GND                          : J8        : gnd    :                   :         :           :                
+GND                          : J9        : gnd    :                   :         :           :                
+GND                          : J10       : gnd    :                   :         :           :                
+in_a[1]                      : J11       : input  : 2.5 V             :         : 5         : Y              
+in_b[23]                     : J12       : input  : 2.5 V             :         : 5         : Y              
+in_a[0]                      : J13       : input  : 2.5 V             :         : 5         : Y              
+in_b[21]                     : J14       : input  : 2.5 V             :         : 5         : Y              
+in_b[19]                     : J15       : input  : 2.5 V             :         : 5         : Y              
+in_b[20]                     : J16       : input  : 2.5 V             :         : 5         : Y              
+in_c[19]                     : K1        : input  : 2.5 V             :         : 2         : Y              
+in_c[20]                     : K2        : input  : 2.5 V             :         : 2         : Y              
+VCCIO2                       : K3        : power  :                   : 2.5V    : 2         :                
+GND                          : K4        : gnd    :                   :         :           :                
+in_b[1]                      : K5        : input  : 2.5 V             :         : 2         : Y              
+in_b[0]                      : K6        : input  : 2.5 V             :         : 2         : Y              
+VCCINT                       : K7        : power  :                   : 1.2V    :           :                
+in_c[22]                     : K8        : input  : 2.5 V             :         : 3         : Y              
+RESERVED_INPUT               : K9        :        :                   :         : 4         :                
+in_a[3]                      : K10       : input  : 2.5 V             :         : 4         : Y              
+RESERVED_INPUT               : K11       :        :                   :         : 5         :                
+in_a[2]                      : K12       : input  : 2.5 V             :         : 5         : Y              
+GND                          : K13       : gnd    :                   :         :           :                
+VCCIO5                       : K14       : power  :                   : 2.5V    : 5         :                
+in_b[17]                     : K15       : input  : 2.5 V             :         : 5         : Y              
+in_b[18]                     : K16       : input  : 2.5 V             :         : 5         : Y              
+in_c[21]                     : L1        : input  : 2.5 V             :         : 2         : Y              
+in_c[23]                     : L2        : input  : 2.5 V             :         : 2         : Y              
+in_b[3]                      : L3        : input  : 2.5 V             :         : 2         : Y              
+in_b[2]                      : L4        : input  : 2.5 V             :         : 2         : Y              
+VCCA1                        : L5        : power  :                   : 2.5V    :           :                
+in_b[5]                      : L6        : input  : 2.5 V             :         : 2         : Y              
+in_b[10]                     : L7        : input  : 2.5 V             :         : 3         : Y              
+RESERVED_INPUT               : L8        :        :                   :         : 3         :                
+RESERVED_INPUT               : L9        :        :                   :         : 4         :                
+RESERVED_INPUT               : L10       :        :                   :         : 4         :                
+VAR_PULSE[0]                 : L11       : output : 2.5 V             :         : 4         : Y              
+in_b[22]                     : L12       : input  : 2.5 V             :         : 5         : Y              
+RESERVED_INPUT               : L13       :        :                   :         : 5         :                
+RESERVED_INPUT               : L14       :        :                   :         : 5         :                
+in_b[15]                     : L15       : input  : 2.5 V             :         : 5         : Y              
+in_b[16]                     : L16       : input  : 2.5 V             :         : 5         : Y              
+CTL_PULSE[2]                 : M1        : input  : 2.5 V             :         : 2         : Y              
+in_b[12]                     : M2        : input  : 2.5 V             :         : 2         : Y              
+VCCIO2                       : M3        : power  :                   : 2.5V    : 2         :                
+GND                          : M4        : gnd    :                   :         :           :                
+GNDA1                        : M5        : gnd    :                   :         :           :                
+in_b[6]                      : M6        : input  : 2.5 V             :         : 3         : Y              
+CTL_PULSE[0]                 : M7        : input  : 2.5 V             :         : 3         : Y              
+RESERVED_INPUT               : M8        :        :                   :         : 3         :                
+RESERVED_INPUT               : M9        :        :                   :         : 4         :                
+RESERVED_INPUT               : M10       :        :                   :         : 4         :                
+RESERVED_INPUT               : M11       :        :                   :         : 4         :                
+RESERVED_INPUT               : M12       :        :                   :         : 5         :                
+GND                          : M13       : gnd    :                   :         :           :                
+VCCIO5                       : M14       : power  :                   : 2.5V    : 5         :                
+GND+                         : M15       :        :                   :         : 5         :                
+in_b[14]                     : M16       : input  : 2.5 V             :         : 5         : Y              
+in_b[24]                     : N1        : input  : 2.5 V             :         : 2         : Y              
+in_b[13]                     : N2        : input  : 2.5 V             :         : 2         : Y              
+in_b[4]                      : N3        : input  : 2.5 V             :         : 3         : Y              
+VCCD_PLL1                    : N4        : power  :                   : 1.2V    :           :                
+in_b[9]                      : N5        : input  : 2.5 V             :         : 3         : Y              
+in_b[8]                      : N6        : input  : 2.5 V             :         : 3         : Y              
+GND                          : N7        : gnd    :                   :         :           :                
+RESERVED_INPUT               : N8        :        :                   :         : 3         :                
+RESERVED_INPUT               : N9        :        :                   :         : 4         :                
+GND                          : N10       : gnd    :                   :         :           :                
+RESERVED_INPUT               : N11       :        :                   :         : 4         :                
+RESERVED_INPUT               : N12       :        :                   :         : 4         :                
+RESERVED_INPUT               : N13       :        :                   :         : 5         :                
+RESERVED_INPUT               : N14       :        :                   :         : 5         :                
+VAR_PULSE[5]                 : N15       : output : 2.5 V             :         : 5         : Y              
+VAR_PULSE[4]                 : N16       : output : 2.5 V             :         : 5         : Y              
+in_c[25]                     : P1        : input  : 2.5 V             :         : 2         : Y              
+RESERVED_INPUT               : P2        :        :                   :         : 2         :                
+in_b[7]                      : P3        : input  : 2.5 V             :         : 3         : Y              
+VCCIO3                       : P4        : power  :                   : 2.5V    : 3         :                
+GND                          : P5        : gnd    :                   :         :           :                
+in_b[11]                     : P6        : input  : 2.5 V             :         : 3         : Y              
+VCCIO3                       : P7        : power  :                   : 2.5V    : 3         :                
+CTL_PULSE[4]                 : P8        : input  : 2.5 V             :         : 3         : Y              
+RESERVED_INPUT               : P9        :        :                   :         : 4         :                
+VCCIO4                       : P10       : power  :                   : 2.5V    : 4         :                
+RESERVED_INPUT               : P11       :        :                   :         : 4         :                
+GND                          : P12       : gnd    :                   :         :           :                
+VCCIO4                       : P13       : power  :                   : 2.5V    : 4         :                
+RESERVED_INPUT               : P14       :        :                   :         : 4         :                
+RESERVED_INPUT               : P15       :        :                   :         : 5         :                
+RESERVED_INPUT               : P16       :        :                   :         : 5         :                
+in_c[24]                     : R1        : input  : 2.5 V             :         : 2         : Y              
+GND                          : R2        : gnd    :                   :         :           :                
+in_a[25]                     : R3        : input  : 2.5 V             :         : 3         : Y              
+RESERVED_INPUT               : R4        :        :                   :         : 3         :                
+RESERVED_INPUT               : R5        :        :                   :         : 3         :                
+RESERVED_INPUT               : R6        :        :                   :         : 3         :                
+RESERVED_INPUT               : R7        :        :                   :         : 3         :                
+RESERVED_INPUT               : R8        :        :                   :         : 3         :                
+RESERVED_INPUT               : R9        :        :                   :         : 4         :                
+RESERVED_INPUT               : R10       :        :                   :         : 4         :                
+RESERVED_INPUT               : R11       :        :                   :         : 4         :                
+RESERVED_INPUT               : R12       :        :                   :         : 4         :                
+RESERVED_INPUT               : R13       :        :                   :         : 4         :                
+VAR_PULSE[1]                 : R14       : output : 2.5 V             :         : 4         : Y              
+GND                          : R15       : gnd    :                   :         :           :                
+VAR_PULSE[3]                 : R16       : output : 2.5 V             :         : 5         : Y              
+VCCIO3                       : T1        : power  :                   : 2.5V    : 3         :                
+in_b[25]                     : T2        : input  : 2.5 V             :         : 3         : Y              
+in_a[24]                     : T3        : input  : 2.5 V             :         : 3         : Y              
+RESERVED_INPUT               : T4        :        :                   :         : 3         :                
+RESERVED_INPUT               : T5        :        :                   :         : 3         :                
+RESERVED_INPUT               : T6        :        :                   :         : 3         :                
+RESERVED_INPUT               : T7        :        :                   :         : 3         :                
+RESERVED_INPUT               : T8        :        :                   :         : 3         :                
+RESERVED_INPUT               : T9        :        :                   :         : 4         :                
+RESERVED_INPUT               : T10       :        :                   :         : 4         :                
+RESERVED_INPUT               : T11       :        :                   :         : 4         :                
+RESERVED_INPUT               : T12       :        :                   :         : 4         :                
+RESERVED_INPUT               : T13       :        :                   :         : 4         :                
+VAR_PULSE[2]                 : T14       : output : 2.5 V             :         : 4         : Y              
+out_c15_test                 : T15       : output : 2.5 V             :         : 4         : Y              
+VCCIO4                       : T16       : power  :                   : 2.5V    : 4         :                

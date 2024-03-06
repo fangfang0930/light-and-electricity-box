@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Sat Apr 15 19:07:58 2023
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : breakdown
+Top-level Entity Name : breakdown
+Family : Cyclone IV E
+Total logic elements : 1,370
+    Total combinational functions : 1,102
+    Dedicated logic registers : 871
+Total registers : 871
+Total pins : 124
+Total virtual pins : 0
+Total memory bits : 266,240
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

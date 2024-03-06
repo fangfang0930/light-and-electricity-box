@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at dual_port_ram.v(12): object "RD" differs only in case from object "rd" in the same scope
+Info (10281): Verilog HDL Declaration information at dual_port_ram.v(11): object "WR" differs only in case from object "wr" in the same scope
