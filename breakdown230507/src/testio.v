@@ -14,7 +14,7 @@ module testio(
    input wire i_clk_50m,       //频率50Mhz
 	input wire i_led_key,         //FPGA 按键
 	input wire [5:0]i_fiber_ctl,   //主控触发脉冲宽度500us
-	input wire [5:0]i_fiber_var,  //用于击穿板检丢脉冲-hff没用
+	input wire [5:0]i_fiber_var,  //用于击穿板检丢脉冲
 	input wire [25:0]i_Opt_Receive_State_a,  //A相TE板回馈信号
 	input wire [25:0]i_Opt_Receive_State_b,  //B相TE板回馈信号
 	input wire [25:0]i_Opt_Receive_State_c,  //C相TE板回馈信号
@@ -29,7 +29,7 @@ module testio(
 	input wire [24:16]i_A,  //双口RAM_地址
 	input wire i_clk_100m,   //板载晶振频率100Mhz
 	
-	output reg [5:0]o_fiber_ctl,  //至主控的回报脉冲//hff-没用
+	output reg [5:0]o_fiber_ctl,  //至主控的回报脉冲
 	output reg [5:0]o_fiber_var,  //至阀组的触发脉冲
 	// LED
 	output reg  o_Led_Run,   //绿色LED
@@ -83,12 +83,12 @@ in_shake pulse4(.clk(i_clk_50m), .in_i(i_fiber_ctl[3]), .in_o(Opt_negative_pulse
 in_shake pulse5(.clk(i_clk_50m), .in_i(i_fiber_ctl[4]), .in_o(Opt_forward_pulse[2]));   //主控Pca+触发脉冲抗干扰,500us
 in_shake pulse6(.clk(i_clk_50m), .in_i(i_fiber_ctl[5]), .in_o(Opt_negative_pulse[2]));  //主控Pca-触发脉冲抗干扰,500us
 
-//in_shake pulse11(.clk(i_clk_50m), .in_i(i_fiber_var[0]), .in_o(Opt_scr_forward_pulse_back[0]));   //SCR Pab+触发回馈脉冲抗干扰
-//in_shake pulse12(.clk(i_clk_50m), .in_i(i_fiber_var[1]), .in_o(Opt_scr_negative_pulse_back[0]));  //SCR Pab-触发回馈脉冲抗干扰
-//in_shake pulse13(.clk(i_clk_50m), .in_i(i_fiber_var[2]), .in_o(Opt_scr_forward_pulse_back[1]));   //SCR Pbc+触发回馈脉冲抗干扰
-//in_shake pulse14(.clk(i_clk_50m), .in_i(i_fiber_var[3]), .in_o(Opt_scr_negative_pulse_back[1]));  //SCR Pbc-触发回馈脉冲抗干扰
-//in_shake pulse15(.clk(i_clk_50m), .in_i(i_fiber_var[4]), .in_o(Opt_scr_forward_pulse_back[2]));   //SCR Pca+触发回馈脉冲抗干扰
-//in_shake pulse16(.clk(i_clk_50m), .in_i(i_fiber_var[5]), .in_o(Opt_scr_negative_pulse_back[2]));  //SCR Pca-触发回馈脉冲抗干扰
+in_shake pulse11(.clk(i_clk_50m), .in_i(i_fiber_var[0]), .in_o(Opt_scr_forward_pulse_back[0]));   //SCR Pab+触发回馈脉冲抗干扰
+in_shake pulse12(.clk(i_clk_50m), .in_i(i_fiber_var[1]), .in_o(Opt_scr_negative_pulse_back[0]));  //SCR Pab-触发回馈脉冲抗干扰
+in_shake pulse13(.clk(i_clk_50m), .in_i(i_fiber_var[2]), .in_o(Opt_scr_forward_pulse_back[1]));   //SCR Pbc+触发回馈脉冲抗干扰
+in_shake pulse14(.clk(i_clk_50m), .in_i(i_fiber_var[3]), .in_o(Opt_scr_negative_pulse_back[1]));  //SCR Pbc-触发回馈脉冲抗干扰
+in_shake pulse15(.clk(i_clk_50m), .in_i(i_fiber_var[4]), .in_o(Opt_scr_forward_pulse_back[2]));   //SCR Pca+触发回馈脉冲抗干扰
+in_shake pulse16(.clk(i_clk_50m), .in_i(i_fiber_var[5]), .in_o(Opt_scr_negative_pulse_back[2]));  //SCR Pca-触发回馈脉冲抗干扰
 
 reg[2:0] Opt_forward_pulse_buff = 1'b0;
 reg[2:0] Opt_negative_pulse_buff = 1'b0;
