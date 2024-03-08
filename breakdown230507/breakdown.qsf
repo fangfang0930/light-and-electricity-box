@@ -338,8 +338,6 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_counter_6bits.v -secti
 set_global_assignment -name EDA_TEST_BENCH_FILE src/tb_counter_6bits.v -section_id tb_counter_6bits.v
 set_global_assignment -name VERILOG_FILE src/tb_counter_6bits.v
 set_global_assignment -name SIGNALTAP_FILE output_files/stp1.stp
-set_global_assignment -name VERILOG_FILE src/main_start.v
-set_global_assignment -name VERILOG_FILE src/gen_clk.v
 set_global_assignment -name VERILOG_FILE src/in_shake_scr_pulse.v
 set_global_assignment -name BDF_FILE src/breakdown.bdf
 set_global_assignment -name VERILOG_FILE src/counter_6bits.v
@@ -348,7 +346,6 @@ set_global_assignment -name VERILOG_FILE src/testio.v
 set_global_assignment -name QIP_FILE pll0.qip
 set_global_assignment -name QIP_FILE src/my_ram.qip
 set_global_assignment -name VERILOG_FILE src/dual_port_ram.v
-set_global_assignment -name VERILOG_FILE src/bk_test2ch.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
