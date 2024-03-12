@@ -3,7 +3,7 @@
 module counter_6bits_tb;
 
     // Parameters
-    parameter CLK_PERIOD = 20; // 时钟周期，单位：ns
+    parameter CLK_PERIOD = 2; // 时钟周期，单位：ns
 
     // Signals
     reg i_clk_50m;
@@ -46,16 +46,16 @@ module counter_6bits_tb;
         // 测试第一种情况
         // 设置击穿信号为1，持续几个时钟周期
         i_signal = 1;
-        #10;
+        #500;
         i_signal = 0;
 
         // 等待一段时间
-        #200;
+        #20000;
 
         // 测试第二种情况
         // 设置正相触发脉冲为1
         i_signal_forward = 1;
-        #100;
+        #10000;
         i_signal_forward = 0;
 
         // 等待一段时间
@@ -68,10 +68,10 @@ module counter_6bits_tb;
        // i_signal_forbid = 0;
 
         // 等待一段时间
-        #240;
+        #24000;
 		
         i_signal = 1;
-        #100;
+        #10000;
         i_signal = 0;
 
         // 结束仿真

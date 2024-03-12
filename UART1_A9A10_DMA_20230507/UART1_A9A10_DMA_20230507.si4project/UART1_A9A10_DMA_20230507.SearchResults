@@ -1,0 +1,6 @@
+---- LED_A Matches (2 in 2 files) ----
+ThyristorBreakDownProtectLightElectricity in main.c (Src) : 					P->FaultNum = LED_A;//A
+main.h (Inc) line 181 : #define LED_A    10
+---- LED_A Matches (2 in 2 files) ----
+ThyristorBreakDownProtectLightElectricity in main.c (Src) : 					P->FaultNum = LED_A;//A
+main.h (Inc) line 181 : #define LED_A    10

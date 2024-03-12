@@ -33,13 +33,13 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src {D:/temp/ZhiYuan_ING/svc/breakdown230507/src/in_shake_scr_pulse.v}
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src {D:/temp/ZhiYuan_ING/svc/breakdown230507/src/counter_6bits.v}
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/db {D:/temp/ZhiYuan_ING/svc/breakdown230507/db/pll0_altpll.v}
+vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src {D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/in_shake_scr_pulse.v}
+vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src {D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/counter_6bits.v}
+vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/db {D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/db/pll0_altpll.v}
 
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src {D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v}
+vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src {D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/tb_counter_6bits.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_counter_6bits.v
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_counter_6bits
 
 add wave *
 view structure

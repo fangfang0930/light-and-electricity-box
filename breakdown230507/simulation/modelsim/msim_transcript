@@ -26,7 +26,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {d:/altera/13.1/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:04:44 on Mar 04,2024
+# Start time: 08:59:35 on Mar 11,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_ver d:/altera/13.1/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -104,7 +104,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 16:04:44 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 08:59:35 on Mar 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -115,7 +115,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {d:/altera/13.1/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:04:44 on Mar 04,2024
+# Start time: 08:59:36 on Mar 11,2024
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/altera/13.1/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -179,7 +179,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 16:04:44 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 08:59:36 on Mar 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -190,7 +190,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {d:/altera/13.1/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:04:44 on Mar 04,2024
+# Start time: 08:59:36 on Mar 11,2024
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/altera/13.1/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -232,7 +232,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 16:04:44 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 08:59:36 on Mar 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -243,7 +243,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {d:/altera/13.1/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:04:45 on Mar 04,2024
+# Start time: 08:59:36 on Mar 11,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/altera/13.1/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -368,7 +368,7 @@
 # 	altserial_flash_loader
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 16:04:46 on Mar 04,2024, Elapsed time: 0:00:01
+# End time: 08:59:37 on Mar 11,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -379,7 +379,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {d:/altera/13.1/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:04:46 on Mar 04,2024
+# Start time: 08:59:37 on Mar 11,2024
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/altera/13.1/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -442,7 +442,7 @@
 # 	altera_pll_reconfig_tasks
 # 	altera_syncram
 # 	altera_pll
-# End time: 16:04:47 on Mar 04,2024, Elapsed time: 0:00:01
+# End time: 08:59:38 on Mar 11,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cycloneive_ver
@@ -453,7 +453,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cycloneive_ver {d:/altera/13.1/quartus/eda/sim_lib/cycloneive_atoms.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:04:47 on Mar 04,2024
+# Start time: 08:59:38 on Mar 11,2024
 # vlog -reportprogress 300 -vlog01compat -work cycloneive_ver d:/altera/13.1/quartus/eda/sim_lib/cycloneive_atoms.v 
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFE
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
@@ -529,7 +529,7 @@
 # 	cycloneive_jtag
 # 	cycloneive_crcblock
 # 	cycloneive_oscillator
-# End time: 16:04:47 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 08:59:38 on Mar 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -541,66 +541,76 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src {D:/temp/ZhiYuan_ING/svc/breakdown230507/src/in_shake_scr_pulse.v}
+# vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src {D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/in_shake_scr_pulse.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:04:47 on Mar 04,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" D:/temp/ZhiYuan_ING/svc/breakdown230507/src/in_shake_scr_pulse.v 
+# Start time: 08:59:38 on Mar 11,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src" D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/in_shake_scr_pulse.v 
 # -- Compiling module in_shake_scr_pulse
 # 
 # Top level modules:
 # 	in_shake_scr_pulse
-# End time: 16:04:47 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 08:59:38 on Mar 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src {D:/temp/ZhiYuan_ING/svc/breakdown230507/src/counter_6bits.v}
+# vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src {D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/counter_6bits.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:04:47 on Mar 04,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" D:/temp/ZhiYuan_ING/svc/breakdown230507/src/counter_6bits.v 
+# Start time: 08:59:38 on Mar 11,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src" D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/counter_6bits.v 
 # -- Compiling module counter_6bits
 # 
 # Top level modules:
 # 	counter_6bits
-# End time: 16:04:47 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 08:59:38 on Mar 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/db {D:/temp/ZhiYuan_ING/svc/breakdown230507/db/pll0_altpll.v}
+# vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/db {D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/db/pll0_altpll.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:04:47 on Mar 04,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/db" D:/temp/ZhiYuan_ING/svc/breakdown230507/db/pll0_altpll.v 
+# Start time: 08:59:38 on Mar 11,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/db" D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/db/pll0_altpll.v 
 # -- Compiling module pll0_altpll
 # 
 # Top level modules:
 # 	pll0_altpll
-# End time: 16:04:48 on Mar 04,2024, Elapsed time: 0:00:01
+# End time: 08:59:38 on Mar 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src {D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v}
+# vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src {D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/tb_counter_6bits.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:04:48 on Mar 04,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v 
+# Start time: 08:59:38 on Mar 11,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src" D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/tb_counter_6bits.v 
 # -- Compiling module counter_6bits_tb
 # 
 # Top level modules:
 # 	counter_6bits_tb
-# End time: 16:04:48 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 08:59:38 on Mar 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_counter_6bits.v
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_counter_6bits.v 
-# Start time: 16:04:48 on Mar 04,2024
-# ** Error (suppressible): (vsim-19) Failed to access library 'tb_counter_6bits' at "tb_counter_6bits".
-# No such file or directory. (errno = ENOENT)
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_counter_6bits
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_counter_6bits 
+# Start time: 08:59:39 on Mar 11,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Fatal: Internal Error - vopt returned success but vsim could not find a design to simulate!. Please contact customer support for further assistance.
 # Error loading design
 # Error: Error loading design
 #        Pausing macro execution
 # MACRO ./breakdown_run_msim_rtl_verilog.do PAUSED at line 42
+vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/tb_counter_6bits.v
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 09:00:53 on Mar 11,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/tb_counter_6bits.v 
+# -- Compiling module counter_6bits_tb
+# 
+# Top level modules:
+# 	counter_6bits_tb
+# End time: 09:00:53 on Mar 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" work.counter_6bits_tb -novopt
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" work.counter_6bits_tb -novopt 
-# Start time: 16:04:48 on Mar 04,2024
+# Start time: 08:59:39 on Mar 11,2024
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.counter_6bits_tb
+# Refreshing D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/simulation/modelsim/rtl_work.counter_6bits_tb
 # Loading work.counter_6bits_tb
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.counter_6bits
+# Refreshing D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/simulation/modelsim/rtl_work.counter_6bits
 # Loading work.counter_6bits
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.in_shake_scr_pulse
+# Refreshing D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/simulation/modelsim/rtl_work.in_shake_scr_pulse
 # Loading work.in_shake_scr_pulse
 add wave -position insertpoint  \
 sim:/counter_6bits_tb/o_SCR_negative_state \
@@ -614,71 +624,13 @@ sim:/counter_6bits_tb/i_signal \
 sim:/counter_6bits_tb/i_clk_50m \
 sim:/counter_6bits_tb/CLK_PERIOD
 run
-# Simulation may not continue after final blocks are run.
-# could not find interpreter "ScintillaTk"
-run
-# Simulation may not continue after final blocks are run.
-# could not find interpreter "ScintillaTk"
-run
-# Simulation may not continue after final blocks are run.
-# could not find interpreter "ScintillaTk"
-run
-# Simulation may not continue after final blocks are run.
-# could not find interpreter "ScintillaTk"
-add wave -position insertpoint  \
-sim:/counter_6bits_tb/o_SCR_negative_state \
-sim:/counter_6bits_tb/o_SCR_negative_BOD \
-sim:/counter_6bits_tb/o_SCR_forward_state \
-sim:/counter_6bits_tb/o_SCR_forward_BOD \
-sim:/counter_6bits_tb/i_signal_negative \
-sim:/counter_6bits_tb/i_signal_forward \
-sim:/counter_6bits_tb/i_signal_forbid \
-sim:/counter_6bits_tb/i_signal \
-sim:/counter_6bits_tb/i_clk_50m \
-sim:/counter_6bits_tb/CLK_PERIOD
-run
-# Simulation may not continue after final blocks are run.
-# could not find interpreter "ScintillaTk"
-run
-# Simulation may not continue after final blocks are run.
-# could not find interpreter "ScintillaTk"
-run
-# Simulation may not continue after final blocks are run.
-# could not find interpreter "ScintillaTk"
-restart -f
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
 run
 run
 run
-restart -f
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-add wave -position insertpoint  \
-sim:/counter_6bits_tb/o_SCR_negative_state \
-sim:/counter_6bits_tb/o_SCR_negative_BOD \
-sim:/counter_6bits_tb/o_SCR_forward_state \
-sim:/counter_6bits_tb/o_SCR_forward_BOD \
-sim:/counter_6bits_tb/i_signal_negative \
-sim:/counter_6bits_tb/i_signal_forward \
-sim:/counter_6bits_tb/i_signal_forbid \
-sim:/counter_6bits_tb/i_signal \
-sim:/counter_6bits_tb/i_clk_50m \
-sim:/counter_6bits_tb/CLK_PERIOD
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
+run
+run
+run
+run
 run -continue
 run
 run
@@ -692,422 +644,21 @@ run
 run
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-quit -sim
-# End time: 16:11:10 on Mar 04,2024, Elapsed time: 0:06:22
-# Errors: 8, Warnings: 3
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v
+vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/tb_counter_6bits.v
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:11:15 on Mar 04,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v 
+# Start time: 09:07:01 on Mar 11,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/src/tb_counter_6bits.v 
 # -- Compiling module counter_6bits_tb
 # 
 # Top level modules:
 # 	counter_6bits_tb
-# End time: 16:11:15 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 09:07:01 on Mar 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -novopt work.counter_6bits_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" -novopt work.counter_6bits_tb 
-# Start time: 16:11:30 on Mar 04,2024
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.counter_6bits_tb
-# Loading work.counter_6bits_tb
-# Loading work.counter_6bits
-# Loading work.in_shake_scr_pulse
-add wave -position insertpoint  \
-sim:/counter_6bits_tb/o_SCR_negative_state \
-sim:/counter_6bits_tb/o_SCR_negative_BOD \
-sim:/counter_6bits_tb/o_SCR_forward_state \
-sim:/counter_6bits_tb/o_SCR_forward_BOD \
-sim:/counter_6bits_tb/i_signal_negative \
-sim:/counter_6bits_tb/i_signal_forward \
-sim:/counter_6bits_tb/i_signal_forbid \
-sim:/counter_6bits_tb/i_signal \
-sim:/counter_6bits_tb/i_clk_50m \
-sim:/counter_6bits_tb/CLK_PERIOD
 run
-run -continue
-run -continue
-run -continue
-run -continue
-run -continue
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run -continue
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v
-# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:14:23 on Mar 04,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v 
-# -- Compiling module counter_6bits_tb
-# 
-# Top level modules:
-# 	counter_6bits_tb
-# End time: 16:14:23 on Mar 04,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 restart -f
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.counter_6bits_tb
+# Refreshing D:/temp/ZhiYuan_ING/lightElectricityBox_GIT/breakdown230507/simulation/modelsim/rtl_work.counter_6bits_tb
 # Loading work.counter_6bits_tb
 run
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# Break key hit
-# Break in Module counter_6bits_tb at D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v line 33
-# could not find interpreter "ScintillaTk"
-run
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/counter_6bits.v
-# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 16:19:47 on Mar 04,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/counter_6bits.v 
-# -- Compiling module counter_6bits
-# 
-# Top level modules:
-# 	counter_6bits
-# End time: 16:19:47 on Mar 04,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart -f
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.counter_6bits
-# Loading work.counter_6bits
-run
-run
-add wave -position insertpoint  \
-sim:/counter_6bits_tb/uut/signal_negative_flag \
-sim:/counter_6bits_tb/uut/signal_forward_flag \
-sim:/counter_6bits_tb/uut/pulse_check_time4 \
-sim:/counter_6bits_tb/uut/pulse_check_time3 \
-sim:/counter_6bits_tb/uut/pulse_check_time2 \
-sim:/counter_6bits_tb/uut/pulse_check_time1 \
-sim:/counter_6bits_tb/uut/o_SCR_negative_state \
-sim:/counter_6bits_tb/uut/o_SCR_negative_BOD \
-sim:/counter_6bits_tb/uut/o_SCR_forward_state \
-sim:/counter_6bits_tb/uut/o_SCR_forward_BOD \
-sim:/counter_6bits_tb/uut/i_signal_negative_buff \
-sim:/counter_6bits_tb/uut/i_signal_negative \
-sim:/counter_6bits_tb/uut/i_signal_forward_buff \
-sim:/counter_6bits_tb/uut/i_signal_forward \
-sim:/counter_6bits_tb/uut/i_signal_forbid \
-sim:/counter_6bits_tb/uut/i_signal \
-sim:/counter_6bits_tb/uut/i_clk_50m \
-sim:/counter_6bits_tb/uut/f_signal_buff2 \
-sim:/counter_6bits_tb/uut/f_signal_buff1 \
-sim:/counter_6bits_tb/uut/f_signal \
-sim:/counter_6bits_tb/uut/counter_negative \
-sim:/counter_6bits_tb/uut/counter_forward \
-sim:/counter_6bits_tb/uut/code_negative \
-sim:/counter_6bits_tb/uut/code_forward
-restart -f
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-add wave -position insertpoint  \
-sim:/counter_6bits_tb/o_SCR_negative_state \
-sim:/counter_6bits_tb/o_SCR_negative_BOD \
-sim:/counter_6bits_tb/o_SCR_forward_state \
-sim:/counter_6bits_tb/o_SCR_forward_BOD \
-sim:/counter_6bits_tb/i_signal_negative \
-sim:/counter_6bits_tb/i_signal_forward \
-sim:/counter_6bits_tb/i_signal_forbid \
-sim:/counter_6bits_tb/i_signal \
-sim:/counter_6bits_tb/i_clk_50m \
-sim:/counter_6bits_tb/CLK_PERIOD
-run
-run
-# could not find interpreter "ScintillaTk"
-add wave -position insertpoint  \
-sim:/counter_6bits_tb/uut/inshake_sig/o_num \
-sim:/counter_6bits_tb/uut/inshake_sig/io_shake \
-sim:/counter_6bits_tb/uut/inshake_sig/in_o \
-sim:/counter_6bits_tb/uut/inshake_sig/in_i_buff2 \
-sim:/counter_6bits_tb/uut/inshake_sig/in_i_buff1 \
-sim:/counter_6bits_tb/uut/inshake_sig/in_i \
-sim:/counter_6bits_tb/uut/inshake_sig/clk \
-sim:/counter_6bits_tb/uut/inshake_sig/c_num
-restart -f
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-run
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v
-# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 17:10:13 on Mar 04,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v 
-# -- Compiling module counter_6bits_tb
-# 
-# Top level modules:
-# 	counter_6bits_tb
-# End time: 17:10:13 on Mar 04,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart -f
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.counter_6bits_tb
-# Loading work.counter_6bits_tb
-run
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v
-# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 09:34:50 on Mar 05,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v 
-# -- Compiling module counter_6bits_tb
-# 
-# Top level modules:
-# 	counter_6bits_tb
-# End time: 09:34:51 on Mar 05,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-restart -f
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.counter_6bits_tb
-# Loading work.counter_6bits_tb
-run -continue
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v
-# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 09:40:12 on Mar 05,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v 
-# -- Compiling module counter_6bits_tb
-# 
-# Top level modules:
-# 	counter_6bits_tb
-# End time: 09:40:12 on Mar 05,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/counter_6bits.v
-# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 09:40:15 on Mar 05,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/counter_6bits.v 
-# -- Compiling module counter_6bits
-# 
-# Top level modules:
-# 	counter_6bits
-# End time: 09:40:15 on Mar 05,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart -f
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.counter_6bits_tb
-# Loading work.counter_6bits_tb
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.counter_6bits
-# Loading work.counter_6bits
-run
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v
-# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 09:42:20 on Mar 05,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v 
-# -- Compiling module counter_6bits_tb
-# 
-# Top level modules:
-# 	counter_6bits_tb
-# End time: 09:42:20 on Mar 05,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart -f
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.counter_6bits_tb
-# Loading work.counter_6bits_tb
-run
-vlog -vlog01compat -work work +incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v
-# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 09:43:33 on Mar 05,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/temp/ZhiYuan_ING/svc/breakdown230507/src" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/temp/ZhiYuan_ING/svc/breakdown230507/src/tb_counter_6bits.v 
-# -- Compiling module counter_6bits_tb
-# 
-# Top level modules:
-# 	counter_6bits_tb
-# End time: 09:43:33 on Mar 05,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart -f
-# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
-# Refreshing D:/temp/ZhiYuan_ING/svc/breakdown230507/simulation/modelsim/rtl_work.counter_6bits_tb
-# Loading work.counter_6bits_tb
-run
-# End time: 17:13:50 on Mar 05,2024, Elapsed time: 25:02:20
-# Errors: 2, Warnings: 10
