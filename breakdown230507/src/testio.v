@@ -99,7 +99,7 @@ reg[2:0]  pulse_negative_flag = 1'b0;
 reg[19:0] counter_555_flag[5:0];
 //1. 脉冲触发
 //ab+ SCR脉冲触发5-5-5
-
+//hff-debug模拟反馈信号
 always @(posedge i_clk_50m)
 begin
  if((Opt_forward_pulse_buff[0] == 1'b0)&&(Opt_forward_pulse[0]== 1'b1))
