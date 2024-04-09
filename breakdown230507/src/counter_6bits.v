@@ -63,8 +63,8 @@ always@(posedge i_clk_50m)
 begin
     if(i_signal_forbid == 1'b1)
     begin
-		o_SCR_negative_state<=1'b1;
-//      o_SCR_negative_state<=1'b1;
+		//o_SCR_forward_state<=1'b1;
+        o_SCR_negative_state<=1'b1;
 		o_SCR_forward_BOD<=1'b1;
 //		o_SCR_forward_power<=1'b1;
 //		o_SCR_forward_bank<=1'b1;
@@ -81,7 +81,7 @@ begin
 		end
 		else if(counter_forward>=20'd1)
 		begin			
-			if(counter_forward>=pulse_check_time4)//||(counter_negative > 20'd0))
+			if(counter_forward>=pulse_check_time4+20'd5)
 				counter_forward<=20'd0;
 			else
 				counter_forward<=counter_forward+20'd1;
@@ -108,7 +108,7 @@ begin
 			signal_forward_flag<=1'b0;
 			f_signal_buff1<=f_signal;
         end
-		else if((counter_forward<=pulse_check_time4)&&(!counter_negative))
+		else if((counter_forward<=pulse_check_time4)&&(counter_negative==0))
 		begin
 			if((f_signal_buff1==1'b0)&&(f_signal==1'b1))
 			begin
@@ -119,7 +119,7 @@ begin
 				code_forward[0]<=1'b1;
 			f_signal_buff1<=f_signal;
 		end
-		else if((counter_forward>pulse_check_time4)||(counter_negative>0))
+		else if((counter_forward==pulse_check_time4+20'd2)||(counter_negative!=0))
 		begin
 			signal_forward_flag<=1'b0;
 			f_signal_buff1<=f_signal;
@@ -128,7 +128,7 @@ begin
 				o_SCR_forward_state<=1'b1;
 			else if(code_forward==2'd0)
 				o_SCR_forward_state<=1'b0;		*/	
-				
+				counter_forward<=0;
 		   o_SCR_negative_state<=code_forward[0];	 		    
 			o_SCR_forward_BOD<=code_forward[1];												    
 //			o_SCR_forward_power<=code_forward[0];				    
@@ -142,8 +142,8 @@ always@(posedge i_clk_50m)
 begin
     if(i_signal_forbid == 1'b1)
     begin
-		o_SCR_forward_state<=1'b1;
-//      o_SCR_forward_state<=1'b1;
+	//	o_SCR_negative_state<=1'b1;
+      o_SCR_forward_state<=1'b1;
 		o_SCR_negative_BOD<=1'b1;
 //		o_SCR_negative_power<=1'b1;
 //		o_SCR_negative_bank<=1'b1;
@@ -159,7 +159,7 @@ begin
 		end
 		else if(counter_negative>=20'd1)
 		begin			
-			if(counter_negative>=pulse_check_time4)//||(counter_forward>0))
+			if(counter_negative>=pulse_check_time4+20'd5)
 				counter_negative<=20'd0;
 			else
 				counter_negative<=counter_negative+20'd1;
@@ -183,7 +183,7 @@ begin
 			signal_negative_flag<=1'b0;
 			f_signal_buff2<=f_signal;
         end
-		else if((counter_negative<pulse_check_time4)&&(counter_forward==0))
+		else if((counter_negative<=pulse_check_time4)&&(counter_forward==0))
 		begin
 			if((f_signal_buff2==1'b0)&&(f_signal==1'b1))
 			begin
@@ -194,7 +194,7 @@ begin
 				code_negative[0]<=1'b1;
 			f_signal_buff2<=f_signal;
 		end
-		else if((counter_negative>=pulse_check_time4)||(counter_forward>0))
+		else if((counter_negative==pulse_check_time4+20'd2)||(counter_forward!=0))
 		begin
 			signal_negative_flag<=1'b0;
 			f_signal_buff2<=f_signal;
@@ -204,7 +204,7 @@ begin
 			else if(code_negative==2'd0)
 				o_SCR_negative_state<=1'b0;	*/	
          o_SCR_forward_state<=code_negative[0];				
-		    
+		    counter_negative<=0;
 			o_SCR_negative_BOD<=code_negative[1];												    
 //			o_SCR_negative_power<=code_negative[0];											    		    
 		end

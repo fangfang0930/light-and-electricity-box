@@ -30,7 +30,7 @@ module testio(
 	input wire i_clk_100m,   //板载晶振频率100Mhz
 	
 	output reg [5:0]o_fiber_ctl,  //至主控的回报脉冲
-	output reg [5:0]o_fiber_var,  //至阀组的触发脉冲-hff-debug模拟反馈信号
+	output reg [5:0]o_fiber_var,  //至阀组的触发脉冲
 	// LED
 	output reg  o_Led_Run,   //绿色LED
 	output reg  o_Led_Error, //红色LED
@@ -99,38 +99,36 @@ reg[2:0]  pulse_negative_flag = 1'b0;
 reg[19:0] counter_555_flag[5:0];
 //1. 脉冲触发
 //ab+ SCR脉冲触发5-5-5
-//hff-debug模拟反馈信号
 always @(posedge i_clk_50m)
 begin
  if((Opt_forward_pulse_buff[0] == 1'b0)&&(Opt_forward_pulse[0]== 1'b1))
 	pulse_forward_flag[0]<= 1'b1;
 	
  if(pulse_forward_flag[0] == 1'b1)
- begin
-    counter_555_flag[0] <= counter_555_flag[0] + 20'd1;
-    if(counter_555_flag[0] <= 20'd660000)		
-		o_fiber_var[0] <= 1'b0;
-	
-	else if(counter_555_flag[0] <= 20'd660500)	//10us
-		o_fiber_var[0] <= 1'b1;
-	else 
 	begin
-
+    counter_555_flag[0] <= counter_555_flag[0] + 17'd1;
+    if(counter_555_flag[0] <= 17'd250)		  o_fiber_var[0] <= 1'b1;
+	 else if(counter_555_flag[0] <= 17'd500)	  o_fiber_var[0] <=1'b0;
+	 else if(counter_555_flag[0] <= 17'd750)	  o_fiber_var[0] <=1'b1;
+	 else if(counter_555_flag[0] <= 17'd1000)  o_fiber_var[0] <=1'b0;
+	 else if(counter_555_flag[0] <= 17'd1250)  o_fiber_var[0] <=1'b1;
+	 else if(counter_555_flag[0] <= 17'd42750) o_fiber_var[0] <=1'b0;
+	 else if(counter_555_flag[0] <= 17'd43000) o_fiber_var[0] <=1'b1;
+	 else if(counter_555_flag[0] <= 17'd43001) o_fiber_var[0] <=1'b0;
+	 else 
+		begin
 		 o_fiber_var[0] <= 1'b0;
-		 counter_555_flag[0] <= 20'd0;
+		 counter_555_flag[0] <= 17'd0;
 		 pulse_forward_flag[0] <= 1'b0;
-	end
- end
+		end
+   end
  else
     begin
-		counter_555_flag[0] <= 20'd0;
-		o_fiber_var[0] <=1'b0;
+    counter_555_flag[0] <= 17'd0;
+    o_fiber_var[0] <=1'b0;
     end
   Opt_forward_pulse_buff[0] <= Opt_forward_pulse[0];
 end
-
-
-
 
 //ab- SCR脉冲触发
 always @(posedge i_clk_50m)
